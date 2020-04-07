@@ -1,3 +1,10 @@
+My solution:
+- [DEMO-LINK](https://mikhail-88.github.io/react-gotapp/)
+
+Used free Api [LINK](https://anapioficeandfire.com/) for get posts (used feth method) and used React Router for moving between pages.
+
+__________________________________________________________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

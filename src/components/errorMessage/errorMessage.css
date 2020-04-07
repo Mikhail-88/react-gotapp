@@ -1,0 +1,17 @@
+.errorBlock img {
+  width: 100%;
+}
+
+.errorText {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  color: rgb(202, 22, 37);
+  font-weight: bold;
+}
+
+.errorBlock {
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+}

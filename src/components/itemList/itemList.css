@@ -1,3 +1,9 @@
 .item-list .list-group-item {
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-list.list-group {
+    margin-bottom: 40px;
 }
