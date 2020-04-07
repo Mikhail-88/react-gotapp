@@ -13,3 +13,7 @@
     text-align: center;
     font-size: 26px;
 }
+
+.list-group.list-group-flush {
+    margin-bottom: 10px;
+}

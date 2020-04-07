@@ -38,16 +38,16 @@ class App extends Component {
                             </Col>
                         </Row>
                         <Route path='/characters' component={CharacterPage} exact />
-                        <Route path='/characters/:id' render={({ match }) => {
-                            return <CharacterItem characterId={match.params.id} />
+                        <Route path='/characters/:id' render={({ match, history }) => {
+                            return <CharacterItem characterId={match.params.id} history={history} />
                         }} />
                         <Route path='/houses' component={HousesPage} exact />
-                        <Route path='/houses/:id' render={({ match }) => {
-                            return <HouseItem houseId={match.params.id} />
+                        <Route path='/houses/:id' render={({ match, history }) => {
+                            return <HouseItem houseId={match.params.id} history={history} />
                         }} />
                         <Route path='/books' component={BooksPage} exact />
-                        <Route path='/books/:id' render={({ match }) => {
-                            return <BooksItem bookId={match.params.id} />
+                        <Route path='/books/:id' render={({ match, history }) => {
+                            return <BooksItem bookId={match.params.id} history={history} />
                         }} />
                     </Container>
                 </div>

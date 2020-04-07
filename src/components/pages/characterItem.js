@@ -10,6 +10,7 @@ export default class CharacterItem extends Component {
       <ItemDetails 
         itemId={this.props.characterId}
         getData={this.gotService.getCharacter}
+        history={this.props.history}
       >
           <Field field="gender" label="Gender" />
           <Field field="born" label="Born" />

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './itemDetails.css';
 import Spinner from '../spinner';
 import ErrorMessage from '../errorMessage';
+import { Button } from 'reactstrap';
 
 const Field = ({ item, field, label }) => {
     return (
@@ -76,6 +77,9 @@ export default class ItemDetails extends Component {
                                 return React.cloneElement(child, {item});
                             })}
                         </ul>
+                        <Button color="info" onClick={() => this.props.history.goBack()}>
+                            Back
+                        </Button>
                     </>
                 }
             </div>

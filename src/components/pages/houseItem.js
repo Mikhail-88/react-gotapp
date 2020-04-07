@@ -10,6 +10,7 @@ export default class HouseItem extends Component {
       <ItemDetails 
         itemId={this.props.houseId}
         getData={this.gotService.getHouse}
+        history={this.props.history}
       >
           <Field field="region" label="Region" />
           <Field field="words" label="Words" />
