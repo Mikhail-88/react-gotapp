@@ -43,8 +43,7 @@ export default class RandomChar extends Component {
     updateCharacter() {
         const id = Math.floor(Math.random() * 140 + 25);
 
-        this.gotService
-            .getCharacter(id)
+        this.gotService.getCharacter(id)
             .then(character => this.onCharacterLoaded(character))
             .catch(this.onError);
     }
@@ -63,8 +62,8 @@ export default class RandomChar extends Component {
                 </Button>
             </div>
         );
-    }
-}
+    };
+};
 
 const View = ({ character: { name, gender, born, died, culture } }) => (
     <ul className="list-group list-group-flush">
@@ -89,4 +88,4 @@ const View = ({ character: { name, gender, born, died, culture } }) => (
             <span>{culture || 'no data'}</span>
         </li>
     </ul>
-)
+);
