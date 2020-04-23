@@ -1,6 +1,9 @@
+You can find my code on the develop branch.
+
 My solution:
 
 - [DEMO-LINK](https://mikhail-88.github.io/react-gotapp/)<br>
+
 Used free Api [LINK](https://anapioficeandfire.com/) for get posts (used feth method) and used React Router for moving between pages.
 
 ______________________________________________________________________________________________________________________________________
